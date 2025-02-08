@@ -1,25 +1,25 @@
 class Rec < Formula
   desc "Practice release engineering"
   homepage "https://github.com/cyfrin/rec"
-  version "0.1.4"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.4/rec-aarch64-apple-darwin.tar.xz"
-      sha256 "76959373782d0b224712a102cf5c4c7db81bfca1636a3631edb8b580bcfd9467"
+      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.5/rec-aarch64-apple-darwin.tar.xz"
+      sha256 "4e06837c77d777ab3fdcb4c1f5b143942873649df0f610d0333504a0eda9d98a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.4/rec-x86_64-apple-darwin.tar.xz"
-      sha256 "0b02dda166d35f66576bef517b8500bb2898e9efe07804a665e64908c87d9ae3"
+      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.5/rec-x86_64-apple-darwin.tar.xz"
+      sha256 "1ee261707a95da774de45393e1863258984abdb362efb7052b63e7595119b51a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.4/rec-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "41e022b49468e7f87c0af3e3541b44033e03dee19ab00612bde0385c97303322"
+      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.5/rec-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "61aacdb531eb690aeef3f69c11f6c3e8f6d112e4dddfe4a5c09001c598bd1732"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.4/rec-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d36a46e87ca232fcbcb9ac8ac7a4b504e4643ceb885e4fe01f4bb65194b16d07"
+      url "https://github.com/cyfrin/rec/releases/download/rec-v0.1.5/rec-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "01b1d7cbfa778bf89771611e597919b10748e09ea9f95581c28efb20f8e9767d"
     end
   end
 
